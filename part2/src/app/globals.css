@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animation pour le compte à rebours */
+.progress-bar {
+  animation: countdown 8s linear forwards;
+}
+
+@keyframes countdown {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}

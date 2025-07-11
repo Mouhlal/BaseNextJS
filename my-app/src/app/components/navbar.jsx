@@ -45,6 +45,8 @@ import Link from 'next/link';
 export default function Navigation() {
   return (
     <div className="flex gap-4 mb-4">
+      <Link href="/">Home</Link>
+      <Link href="/about">About</Link>
       <Link href="/products">Tous</Link>
       <Link href="/products?category=fruits">Fruits</Link>
       <Link href="/products?category=légumes">Légumes</Link>
