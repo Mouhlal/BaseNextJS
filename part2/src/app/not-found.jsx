@@ -2,8 +2,7 @@ import Link from 'next/link';
 import { redirect } from 'next/navigation';
 
 export default function NotFound() {
-  redirect('/');
-    return null;
+    return <div>Not found Page</div>;
 }
 
 export function NotFoundComponent() {

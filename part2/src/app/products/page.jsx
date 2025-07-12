@@ -1,6 +1,15 @@
 import Link from 'next/link';
 import React from 'react'
 
+export const metadata = {
+    title : {
+        default: "All Products",
+        template: "%s | All Products",
+        absolute: "All Products", //ecraser le titre par défaut
+    },
+    description: "This is the All Products page",
+}
+
 export default function AllProducts() {
     const products = [
         { id: 1, name: 'Product 1' , description: 'This is product 1' },
@@ -24,4 +33,4 @@ export default function AllProducts() {
         </div>
     </>
   )
-}
+} 
